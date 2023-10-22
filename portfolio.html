@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="tyyli.css">	
+	<style id="jetpack-boost-critical-css" media="not all"> </style>
+	<title>My Portfolio</title>
+</head>
+
+<body>
+	<header>
+    <a href="index.html"><h3>IT Student portfolio</h3></a>
+		<div class="container">
+			<div>
+				<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="myskills.html">Skills</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+			<button class="hamburger">
+			<div class="bar"></div>
+			</button>
+		<nav class="mobile-nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="myskills.html">Skills</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+  </header>
+<main>
+	<div class="main">
+    <h1 style="font-size:8vw">MY PORTFOLIO</h1>
+    <p>This website proudly marks the beginning of my portfolio showcase. Resize the browser window to see the responsive effect.</p>
+    <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> All</button>
+        <button class="btn" onclick="filterSelection('Javascript')"> Software Development</button>
+        <button class="btn" onclick="filterSelection('CSS')"> CSS</button>
+        <button class="btn" onclick="filterSelection('Windows servers')"> Windows servers</button>
+        
+      </div>
+    <!-- Portfolio Gallery Grid -->
+    <div class="row">
+      <div class="column Javascript">
+        <div class="content">
+          <img src="javasc.png" alt="javascript" style="width:100%">
+          <p>Javascript</p>
+        </div>
+      </div>
+      <div class="column CSS">
+        <div class="content">
+          <img src="css.png" alt="CSS" style="width:100%">
+          <p>CSS</p>
+        </div>
+      </div>
+      <div class="column servers">
+        <div class="content">
+          <img src="work in progress.jpg" alt="servers" style="width:100%">
+          <p>Servers</p>
+        </div>
+      </div>
+      
+    <!-- END MAIN -->
+    </div>
+</main>
+
+<script src="C:\Users\sille\OneDrive\Desktop\secureghost\javascript.js"></script>
+</body>
+</html>
+
+<footer>
+    <div class="clearfix">
+        <div class="left-link">
+           <p>
+             <a href="myskills.html">Go back to My Skills</a>
+    </p>
+    </div>
+    <div class="right-link">
+		<p> 
+            <a href="contact.html">Continue to Contact Me</a>
+    </p>
+    </div>
+</div>
+</footer>
