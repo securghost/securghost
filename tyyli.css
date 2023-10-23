@@ -102,7 +102,7 @@ li a {
     text-align: right;
     display: block;
     z-index: 98;
-    background-color:rgba(74, 4, 50);
+    background-color:rgba(74, 4, 50, 0.75);
     padding-top: 120px;
     transition: 0.4s;
     }
@@ -129,7 +129,7 @@ li a {
     color: #d5cdcc;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     .mobile-nav {
         display: none;
     }
