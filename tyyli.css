@@ -18,7 +18,7 @@ header {
     margin: 0 auto;
     padding-left: 128px;
     padding-right: 0px;
-
+}
     @media (min-width: 1024px) {
       .container {
         padding-left: 64px;
@@ -36,7 +36,6 @@ header {
         padding-left: 32px;
         padding-right: 32px;
     }}
-}
 
 .container {
     list-style-type: none;
