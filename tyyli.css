@@ -315,3 +315,9 @@ margin-right: 120px;
     }
     
 }
+.responsive {
+  display: inline-flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
