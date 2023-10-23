@@ -288,7 +288,7 @@ padding-left: 16rem;
 
 /* Add some spacing between the links */
 .left-link {
-margin-right: 120px;
+margin-right: 16rem;
 }
 
 @media all and (max-width: 768px) {
