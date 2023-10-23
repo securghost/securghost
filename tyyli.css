@@ -20,24 +20,27 @@ header {
     padding-right: 0px;
 
     @media (min-width: 1024px) {
+      .container {
         padding-left: 64px;
         padding-right: 64px;
-    }
+    }}
 
     @media (min-width: 768px) and (max-width: 1024px) {
+      .container {
         padding-left: 64px;
         padding-right: 64px;
-    }
+    }}
 
     @media (max-width: 768px) {
+      .container {
         padding-left: 32px;
         padding-right: 32px;
-    }
+    }}
 }
 
 .container {
     list-style-type: none;
-    align-items: right;
+    align-items: flex-start;
     padding: 0;
 }
 
@@ -168,7 +171,7 @@ li a {
   float: left;
   width: 33.33%;
   height:33.33%;
-  display: box; /* Hide columns by default */
+  display: -moz-box; /* Hide columns by default */
 }
 
 /* Clear floats after rows */
